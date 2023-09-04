@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<!-- Background image -->
+<div class="p-2 text-center bg-image">  
+  <br>
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <!-- <img class="masthead-avatar mb-5" src="imagenes\trabajando.jpg" alt="jpg" />-->
+      <div class="text-black">
+        <h2 class="mb-3">Alta Tecnología a su disposición</h2>
+        <h3 class="mb-3">Bienvenidos </h3>
+      <img src="{% static 'assets/imagenes/trabajando.jpg' %}">
+      </div>
+  </div>
+</div>   
+{% endblock  %}
